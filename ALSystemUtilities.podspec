@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
         :type => 'MIT',
         :file => 'LICENSE'
     }
-  s.homepage     = 'https://github.com/andrealufino/ALSystemUtilities'
+  s.homepage     = 'https://bitbucket.org/onsightukraine/alsystemutilities'
   s.author            = {
         'Andrea Lufino' => 'andrea.lufino@me.com'
     }
