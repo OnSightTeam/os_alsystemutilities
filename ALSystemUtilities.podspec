@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 # Source Info
   s.platform     =  :ios, '6.1'
   s.source            = {
-        :git => 'https://github.com/andrealufino/ALSystemUtilities.git',
+        :git => 'https://bitbucket.org/onsightukraine/alsystemutilities',
         :tag => '1.3.4'
     }
   s.source_files = 'ALSystemUtilities/ALSystemUtilities/**/*.{h,m}'
@@ -22,8 +22,6 @@ Pod::Spec.new do |s|
   s.resources = 'ALSystemUtilities/ALSystemUtilities/Resources/**/*.{plist}'
 
   s.frameworks    =  'AudioToolbox','CFNetwork','CoreTelephony','ExternalAccessory','Security','SystemConfiguration','CoreGraphics','CoreFoundation','Foundation'
-  
-  non_arc_files = 'ALSystemUtilities/ALSystemUtilities/Reachability/Reachability.h','ALSystemUtilities/ALSystemUtilities/Reachability/Reachability.m'
   s.exclude_files = non_arc_files
   s.subspec 'no-arc' do |sna|
     sna.requires_arc = false
